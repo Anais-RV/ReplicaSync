@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(https://fonts.gstatic.com/s/opensans/v35/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkWV4ewJER.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+body {
+    background-color:#fff;
+  }  
+
+  #NAVBAR {
+    background-color: #f7fafd;
+}
+
+#LOGO {
+  width: 6rem;
+	height: 2rem;
+  }
+
+#CONTAINER-LOGO{
+margin:auto;
+}
+
+  #BTN {
+    display: flex;
+    justify-content:flex-end ;
+    margin:auto;
+    width: 50%;
+  }
+
+  #PAGS-NAV .nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+  }
+
+  #PAGS-NAV .nav-link:hover {
+    color: #ff556e;
+  }
+  
+  #DOWNLOAD-BTN {
+    color: #ff556e;
+    font-weight: bold;
+    background-color: #f7fafd;
+    border-color: #ff556e;
+    border-width: 3px;
+    box-shadow: #ff556e;
+  }
+
+  #PAGE-HEADER {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: large;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+#HEADER-CONTENT{
+text-align: center;
+}
+
+#DOWNLOAD-IOS-ANDROID{
+  color:#fff;
+  font-size:small;
+  font-weight:bold;
+  background-color: #ff556e;
+  border-color: #ff556e;
+  border-width: 3px;
+
+}
+
+#IOS-ANDRODID-ICON{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#IPHONE-IMG{
+  width: 60rem;
+	 
+}
