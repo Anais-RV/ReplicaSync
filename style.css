@@ -4,8 +4,8 @@
   unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-body {
-  background-color: #fff;
+.HOME{
+  background-color: #f7fafd;
 }
 
 #NAVBAR {
@@ -19,13 +19,14 @@ body {
 
 #CONTAINER-LOGO {
   margin: auto;
+  width: 80%;
 }
 
 #BTN {
   display: flex;
   justify-content: flex-end;
   margin: auto;
-  width: 50%;
+  width: 80%;
 }
 
 .nav-link {
@@ -61,17 +62,11 @@ body {
 }
 
 #PAGE-HEADER {
-  margin-top: 5rem;
+  font-size: 1.30rem;
+  margin-top: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
-  font-weight: 800;
-  text-align: center;
 }
 
 #HEADER-CONTENT {
@@ -93,13 +88,7 @@ h1 {
 }
 
 #IPHONE-IMG {
-  width: 60rem;
-}
-
-.DESCRIPTION-ICONS {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 55rem;
 }
 
 .image-with-text {
@@ -126,10 +115,6 @@ h1 {
   height: auto;
 }
 
-.image-text {
-  text-align: center;
-}
-
 #USERS-ICON {
   background-color: #ebe7fa;
 }
@@ -150,3 +135,10 @@ h1 {
   background-color: #e1f2fa;
 }
 
+.DESCRIPTION{
+  background-color: #fff;
+}
+
+#DESCRIPTION-PIC{
+  width: 50em;
+}

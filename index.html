@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,10 @@
     <!-- Archivos CSS de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
+
 <body>
+
+  <section class="HOME">
 
   <nav id="NAVBAR" class="navbar navbar-expand-lg fixed-top">
     <div class="container">  
@@ -53,88 +57,92 @@
   
   </nav>  
 
-  <header id="PAGE-HEADER" class="pt-5">
-    <div class="container">
+  <header id="PAGE-HEADER" class="pt-3">
+    <div class="container row align-items-center">  
       <div class="row">
-        <div class="col">
-          <h1 class="font-weight-bold font-s display-3">Mobile App Landing Page</h1>
+          <h1 class="font-weight-bold font-s display-3 mx-auto text-center">Mobile App Landing Page</h1>
           <br>
-          <p id="HEADER-CONTENT">Start focusing on your goals and get more things done with Sync mobile application. It's the first app to harness the power of social connections to help you stay focused and get organized.</p>
+          <p class="HEADER-CONTENT mx-auto text-center">Start focusing on your goals and get more things done with Sync mobile application. It's<br> the first app to harness the power of social connections to help you stay focused and get<br> organized.</p>
+          <br>
         </div>
-      </div>
-    </div>
+        </div>
   </header>
   
-
-  <section id="DESCRIPTION">
-
-        <div style="text-align: center;">
-            <a id="DOWNLOAD-IOS-ANDROID" class="btn btn-primary rounded-pill" href="https://factoriaf5.org/"><img id="IOS-ANDRODID-ICON" src="images/apple.svg">DOWNLOAD</a>
-            <a id="DOWNLOAD-IOS-ANDROID" class="btn btn-primary rounded-pill" href="https://factoriaf5.org/"><img id="IOS-ANDRODID-ICON" src="images/play-solid.svg"> DOWNLOAD</a>     
-        </div>
-
-        <div class="container-fluid d-flex justify-content-center ">
-            <img id="IPHONE-IMG" class="mt-5" src="images/header-iphone.png">
-        </div>
-
-        <div class="CONTAINER-DESCRIPTION-ICONS row justify-content-center col-md-6">
-
-        <div class="DESCRIPTION-ICONS row justify-content-center row-md-6">
-
-            <div class="image-button">
-              <a id="USERS-ICON" href="#" class="rounded-button bg-usersicon">
-                <img src="images/users-solid.svg"  alt="Users Icon">
-              </a>
-              <span class="image-text">Identify Goals</span>
-            </div>
-            
-            <div class="image-button">
-              <a id="CODE-ICON" href="#" class="rounded-button bg-ebe7fa">
-                <img src="images/code-solid.svg" alt="Code Icon">
-              </a>
-              <span class="image-text">Situation Analysis</span>
-            </div>
-            
-            <div class="image-button">
-              <a id="GEAR-ICON" href="#" class="rounded-button">
-                <img src="images/gear-solid.svg"  alt="Gear Icon">
-              </a>
-              <span class="image-text">Tasks Settings</span>
-            </div>
-            
-            <div class="image-button">
-              <a id="COMMENTS-ICON"  href="#" class="rounded-button">
-                <img src="images/comments-solid.svg" alt="Comments Icon">
-              </a>
-              <span class="image-text">Social Interaction</span>
-            </div>
-            
-            <div class="image-button">
-              <a id="ROCKET-ICON" href="#" class="rounded-button">
-                <img src="images/rocket-solid.svg" alt="Rocket Icon">
-              </a>
-              <span class="image-text">Get Things Done</span>
-            </div>
-          </div>
-        </div>  
-
   
-      <br>
-    </br>
-  </section>
+<div style="text-align: center;">
+  <a id="DOWNLOAD-IOS-ANDROID" class="btn btn-primary rounded-pill" href="https://factoriaf5.org/"><img id="IOS-ANDRODID-ICON" src="images/apple.svg">DOWNLOAD</a>
+  <a id="DOWNLOAD-IOS-ANDROID" class="btn btn-primary rounded-pill" href="https://factoriaf5.org/"><img id="IOS-ANDRODID-ICON" src="images/play-solid.svg"> DOWNLOAD</a>     
+</div>
+
+<div class="container-fluid d-flex justify-content-center ">
+  <img id="IPHONE-IMG" class="mt-5" src="images/header-iphone.png">
+</div>
+
+<div class="DESCRIPTION-ICONS container-fluid d-flex row justify-content-around">
+
+  <div class="image-button">
+    <a id="USERS-ICON" href="#" class="rounded-button bg-usersicon">
+      <img src="images/users-solid.svg"  alt="Users Icon">
+    </a>
+      <span class="image-text">Identify Goals</span>
+  </div>
+            
+  <div class="image-button">
+    <a id="CODE-ICON" href="#" class="rounded-button bg-ebe7fa">
+      <img src="images/code-solid.svg" alt="Code Icon">
+    </a>
+      <span class="image-text">Situation Analysis</span>
+  </div>
+            
+  <div class="image-button">
+    <a id="GEAR-ICON" href="#" class="rounded-button">
+      <img src="images/gear-solid.svg"  alt="Gear Icon">
+    </a>
+      <span class="image-text">Tasks Settings</span>
+  </div>
+            
+  <div class="image-button">
+    <a id="COMMENTS-ICON"  href="#" class="rounded-button">
+      <img src="images/comments-solid.svg" alt="Comments Icon">
+    </a>
+      <span class="image-text">Social Interaction</span>
+  </div>
+            
+  <div class="image-button">
+    <a id="ROCKET-ICON" href="#" class="rounded-button">
+      <img src="images/rocket-solid.svg" alt="Rocket Icon">
+    </a>
+      <span class="image-text">Get Things Done</span>
+  </div>
+</div>
+
+</section>
+       
+<section class="DESCRIPTION pt-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img id="DESCRIPTION-PIC" src="images/description-1-app.png" alt="description app" class="img-fluid">
+    </div>
+    <div class="col-md-6 justify-content-between">
+      <h2>Organize Your Time And Star Getting Results</h2>
+      <lo>
+        <li>
+          <p>Sync </p>  
+        </li>  
+      </lo>
+      <p>Sync</p>
+    </div>
+    </div>
   
   
- <section>
 
-    </section>
-
-
-    <section id="FEATURES">
-    </section>
-    <section id="SCREENS">
-    </section>
-    <section id="EXTRA">
-    </section>
+</section>
+<section id="FEATURES">
+</section>
+<section id="SCREENS">
+</section>
+<section id="EXTRA">
+</section>
     
 <!-- Archivos Bootstrap -->      
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
