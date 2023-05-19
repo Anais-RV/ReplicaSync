@@ -140,5 +140,27 @@
 }
 
 #DESCRIPTION-PIC{
-  width: 50em;
+  height: 35rem;
+  width: 35rem;
+}
+
+#DESCRIPTION-TITLE{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.DESCRIPTION-SUMMARY{
+  font-size: 1.25rem;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+#LIGHTBOX {
+  color: #fff;
+  font-size: medium;
+  font-weight: bold;
+  background-color: #ff556e;
+  border-color: #ff556e;
+  border-width: 3px;
 }
