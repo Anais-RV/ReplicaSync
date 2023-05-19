@@ -5,84 +5,148 @@
 }
 
 body {
-    background-color:#fff;
-  }  
+  background-color: #fff;
+}
 
-  #NAVBAR {
-    background-color: #f7fafd;
+#NAVBAR {
+  background-color: #f7fafd;
 }
 
 #LOGO {
   width: 6rem;
-	height: 2rem;
-  }
-
-#CONTAINER-LOGO{
-margin:auto;
+  height: 2rem;
 }
 
-  #BTN {
-    display: flex;
-    justify-content:flex-end ;
-    margin:auto;
-    width: 50%;
-  }
+#CONTAINER-LOGO {
+  margin: auto;
+}
 
-  #PAGS-NAV .nav-link {
-    font-family: 'Open Sans', sans-serif;
-    font-size: medium;
-    font-weight: bold;
-    color: black;
-  }
+#BTN {
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+  width: 50%;
+}
 
-  #PAGS-NAV .nav-link:hover {
-    color: #ff556e;
-  }
-  
-  #DOWNLOAD-BTN {
-    color: #ff556e;
-    font-weight: bold;
-    background-color: #f7fafd;
-    border-color: #ff556e;
-    border-width: 3px;
-    box-shadow: #ff556e;
-  }
-
-  #PAGE-HEADER {
-    margin-top: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }  
-
-  h1 {
+.nav-link {
   font-family: 'Open Sans', sans-serif;
-  font-size: large;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-link:hover {
+  color: #ff556e;
+}
+
+.dropdown-item {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+  background-color: #f7fafd;
+}
+
+.dropdown-item:not(:last-child) {
+  border-bottom: 1px solid #ff556e;
+}
+
+#DOWNLOAD-BTN {
+  color: #ff556e;
+  font-weight: bold;
+  background-color: #f7fafd;
+  border-color: #ff556e;
+  border-width: 3px;
+  box-shadow: #ff556e;
+}
+
+#PAGE-HEADER {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
   font-weight: 800;
   text-align: center;
-
 }
 
-#HEADER-CONTENT{
-text-align: center;
+#HEADER-CONTENT {
+  text-align: center;
 }
 
-#DOWNLOAD-IOS-ANDROID{
-  color:#fff;
-  font-size:small;
-  font-weight:bold;
+#DOWNLOAD-IOS-ANDROID {
+  color: #fff;
+  font-size: small;
+  font-weight: bold;
   background-color: #ff556e;
   border-color: #ff556e;
   border-width: 3px;
-
 }
 
-#IOS-ANDRODID-ICON{
+#IOS-ANDRODID-ICON {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-#IPHONE-IMG{
+#IPHONE-IMG {
   width: 60rem;
-	 
 }
+
+.DESCRIPTION-ICONS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.rounded-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rounded-button img {
+  width: 50%;
+  height: auto;
+}
+
+.image-text {
+  text-align: center;
+}
+
+#USERS-ICON {
+  background-color: #ebe7fa;
+}
+
+#CODE-ICON {
+  background-color: #daf4ef;
+}
+
+#GEAR-ICON {
+  background-color: #f8e5ea;
+}
+
+#COMMENTS-ICON {
+  background-color: #f8f1de;
+}
+
+#ROCKET-ICON {
+  background-color: #e1f2fa;
+}
+
